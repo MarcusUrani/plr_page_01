@@ -1,0 +1,92 @@
+:root {
+  --main-color: #e30842;
+  --text-color: #ffffff;
+  --secondary-color: #000000;
+  --darker-main: #b60635;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+strong,
+button,
+main,
+header,
+nav,
+section,
+div,
+a,
+abbr,
+acronym,
+address,
+video,
+img,
+figure,
+figcaption {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--secondary-color);
+}
+
+.header {
+  background-color: var(--main-color);
+  color: var(--text-color);
+  padding: 2rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+.main {
+  margin: 4rem auto;
+  width: 80%;
+}
+
+.main__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.main__container__video {
+  align-items: center;
+  background-color: #2b2b2b;
+  border-radius: 1rem;
+  color: white;
+  display: flex;
+  font-size: 2rem;
+  height: 350px;
+  justify-content: center;
+  text-align: center;
+  width: 70%;
+}
+
+.main__container__button {
+  background-color: var(--main-color);
+  border-radius: 0.5rem;
+  border-style: none;
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 1rem 1.5rem;
+  transition: all ease 0.3s;
+}
+
+.main__container__button:focus {
+  outline: none;
+}
+
+.main__container__button:hover {
+  background-color: var(--darker-main);
+}
