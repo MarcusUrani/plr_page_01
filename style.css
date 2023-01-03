@@ -106,6 +106,7 @@ body {
   cursor: pointer;
   font-size: 2rem;
   padding: 1rem 1.5rem;
+  text-decoration: none;
   transition: all ease 0.3s;
 }
 
@@ -115,4 +116,14 @@ body {
 
 .main__promotion--container__button:hover {
   background-color: var(--darker-main);
+}
+
+.main__promotion--container__text {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0 0;
+}
+
+.line-through {
+  text-decoration: line-through;
 }
