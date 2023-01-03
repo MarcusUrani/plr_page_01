@@ -36,7 +36,10 @@ figcaption {
 }
 
 body {
-  background-color: var(--secondary-color);
+  background: url(./backgrounds/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header {
