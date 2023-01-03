@@ -6,6 +6,17 @@
   width: 100%;
 }
 
+.header__container {
+  margin: 0 auto;
+  width: 80%;
+}
+
 .header__title {
   font-size: 2rem;
+}
+
+@media (max-width: 425px) {
+  .header__container {
+    width: 90%;
+  }
 }

@@ -9,10 +9,17 @@
 
 .main__header--container__title {
   color: var(--text-color);
+  line-height: 2.5rem;
   text-align: center;
 }
 
 .attention {
   background-color: var(--main-color);
-  padding: 0.3rem;
+  padding: 0.2rem;
+}
+
+@media (max-width: 425px) {
+  .main {
+    width: 90%;
+  }
 }
