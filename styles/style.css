@@ -5,6 +5,10 @@
   --darker-main: #b60635;
 }
 
+html {
+  background-color: var(--secondary-color);
+}
+
 body,
 h1,
 h2,
@@ -41,4 +45,5 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 1rem;
 }

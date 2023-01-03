@@ -6,9 +6,7 @@
 .main__promotion--container__button {
   background-color: var(--main-color);
   border-radius: 0.5rem;
-  border-style: none;
   color: var(--text-color);
-  cursor: pointer;
   font-size: 2rem;
   padding: 1rem 1.5rem;
   text-decoration: none;
