@@ -1,0 +1,18 @@
+.main__video--container {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.main__video--container__video {
+  align-items: center;
+  background-color: #2b2b2b;
+  border-radius: 1rem;
+  color: white;
+  display: flex;
+  font-size: 2rem;
+  height: 350px;
+  justify-content: center;
+  text-align: center;
+  width: 70%;
+}

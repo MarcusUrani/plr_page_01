@@ -1,0 +1,11 @@
+.header {
+  background-color: var(--main-color);
+  color: var(--text-color);
+  padding: 2rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+.header__title {
+  font-size: 2rem;
+}

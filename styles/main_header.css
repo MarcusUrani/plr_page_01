@@ -1,0 +1,18 @@
+.main {
+  margin: 4rem auto;
+  width: 80%;
+}
+
+.main__header--container {
+  margin: 2rem 0;
+}
+
+.main__header--container__title {
+  color: var(--text-color);
+  text-align: center;
+}
+
+.attention {
+  background-color: var(--main-color);
+  padding: 0.3rem;
+}

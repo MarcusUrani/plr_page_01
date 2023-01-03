@@ -1,0 +1,34 @@
+.main__promotion--container {
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.main__promotion--container__button {
+  background-color: var(--main-color);
+  border-radius: 0.5rem;
+  border-style: none;
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  transition: all ease 0.3s;
+}
+
+.main__promotion--container__button:focus {
+  outline: none;
+}
+
+.main__promotion--container__button:hover {
+  background-color: var(--darker-main);
+}
+
+.main__promotion--container__text {
+  color: var(--text-color);
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0 0;
+}
+
+.line-through {
+  text-decoration: line-through;
+}

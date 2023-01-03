@@ -1,0 +1,44 @@
+:root {
+  --main-color: #e30842;
+  --text-color: #ffffff;
+  --secondary-color: #000000;
+  --darker-main: #b60635;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+strong,
+button,
+main,
+header,
+nav,
+section,
+article,
+div,
+a,
+abbr,
+acronym,
+address,
+video,
+img,
+figure,
+figcaption {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../backgrounds/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
