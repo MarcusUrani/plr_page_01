@@ -24,6 +24,7 @@
 .main__promotion--container__text {
   color: var(--secondary-color);
   font-size: 1.5rem;
+  font-weight: 700;
   margin: 1.5rem 0 0 0;
 }
 
