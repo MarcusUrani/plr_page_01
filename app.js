@@ -1,4 +1,15 @@
 const dateHtml = document.querySelector(".attention");
+const videoHtml = document.querySelector("#my-video");
+
+const playVideoHtml = () => {
+  videoHtml.addEventListener("click", () => {
+    if (videoHtml.paused) {
+      videoHtml.play();
+    } else {
+      videoHtml.pause();
+    }
+  });
+};
 
 function insertDateInHtml() {
   let date = new Date();
@@ -18,3 +29,4 @@ function insertDateInHtml() {
 }
 
 insertDateInHtml();
+playVideoHtml();
