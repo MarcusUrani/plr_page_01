@@ -18,7 +18,7 @@ function mostrar() {
     "visible";
 }
 
-let tMin = 6; //coloque aqui o minuto
+let tMin = 0; //coloque aqui o minuto
 
 let tSeg = 25; //coloque aqui o segundo
 
