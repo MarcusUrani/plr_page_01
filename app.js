@@ -18,9 +18,9 @@ function mostrar() {
     "visible";
 }
 
-let tMin = 0; //coloque aqui o minuto
+let tMin = 6; //coloque aqui o minuto
 
-let tSeg = 0; //coloque aqui o segundo
+let tSeg = 25; //coloque aqui o segundo
 
 let tPitch = tMin * 60000 + tSeg * 1000;
 
