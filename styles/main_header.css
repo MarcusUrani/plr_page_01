@@ -4,7 +4,7 @@
 }
 
 .main__header--container {
-  margin: 2rem 0;
+  margin-top: 2rem;
 }
 
 .main__header--container__title {
@@ -18,7 +18,7 @@
   padding: 0.2rem;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .main {
     width: 90%;
   }

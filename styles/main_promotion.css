@@ -37,6 +37,10 @@
 }
 
 @media (max-width: 768px) {
+  .main__promotion--container {
+    margin: 0.5rem 0;
+  }
+
   .main__promotion--container__button {
     font-size: 1.5rem;
     padding: 0.5rem 1rem;
