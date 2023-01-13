@@ -26,8 +26,6 @@ let tPitch = tMin * 60000 + tSeg * 1000;
 
 setTimeout("mostrar()", tPitch);
 
-fbq("track", "ViewContent");
-
 function insertDateInHtml() {
   let date = new Date();
   let actualDay = date.getDate();
