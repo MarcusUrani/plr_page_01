@@ -17,7 +17,7 @@
 
 @media (max-width: 768px) {
   .main__video--container {
-    margin-top: 0.5rem;
+    margin: 3rem 0;
   }
 
   .main__video--container__video {
