@@ -5,6 +5,13 @@
   --darker-main: #b60635;
 }
 
+html {
+  background: url(../backgrounds/background_01.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 body,
 h1,
 h2,
@@ -37,9 +44,5 @@ figcaption {
 }
 
 body {
-  background: url(../backgrounds/background_01.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   height: auto;
 }
