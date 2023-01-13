@@ -17,11 +17,11 @@
 
 @media (max-width: 768px) {
   .header {
-    padding: 0.5rem;
+    padding: 1.5rem;
   }
 
   .header__title {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 
   .header__container {
