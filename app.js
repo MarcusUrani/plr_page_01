@@ -26,16 +26,7 @@ let tPitch = tMin * 60000 + tSeg * 1000;
 
 setTimeout("mostrar()", tPitch);
 
-console.log(
-  "p. em:",
-  tPitch,
-  "ms - totalizando",
-  tMin,
-  "minutos",
-  "e",
-  tSeg,
-  "segundos"
-);
+fbq("track", "ViewContent");
 
 function insertDateInHtml() {
   let date = new Date();
