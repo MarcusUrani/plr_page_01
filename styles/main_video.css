@@ -10,17 +10,24 @@
   border-radius: 1rem;
   display: flex;
   font-size: 2rem;
+  height: 315px;
   justify-content: center;
   text-align: center;
-  width: 60%;
+  width: 560px;
 }
 
 @media (max-width: 768px) {
   .main__video--container {
-    margin: 3.5rem 0;
+    margin: 1.5rem 0;
   }
 
   .main__video--container__video {
     width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .main__video--container__video {
+    height: 215px;
   }
 }
