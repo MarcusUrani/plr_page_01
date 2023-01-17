@@ -1,14 +1,93 @@
 const dateHtml = document.querySelector(".attention");
 const videoHtml = document.querySelector("#my-video");
+const commentsSection = document.querySelector(".main__comments--section");
 
-const playVideoHtml = () => {
-  videoHtml.addEventListener("click", () => {
-    if (videoHtml.paused) {
-      videoHtml.play();
-    } else {
-      videoHtml.pause();
-    }
-  });
+const comments = [
+  {
+    id: "1",
+    name: "Mario Henrique dos Santos",
+    photo: "man_1",
+    comment:
+      "Sensacional, finalmente pude me livrar das dívidas e construir um patrimônio que me deixa seguro. 🤩",
+  },
+  {
+    id: "2",
+    name: "Lucas Fernandes",
+    photo: "man_2",
+    comment:
+      "Nunca tinha conseguido me livrar das dívidas e quase perdi minha esposa por isso, mais agora finalmente consegui sair do aperto e agradeço muito por isso",
+  },
+  {
+    id: "3",
+    name: "Marta Silva",
+    photo: "woman_3",
+    comment:
+      "Depois de anos no aperto e recebendo cobranças todos os dias, finalmente me livrei das dívidas e agora posso dizer q tenho uma vida confortável e sem preocupação",
+  },
+  {
+    id: "4",
+    name: "Marcus Vinícius",
+    photo: "man_4",
+    comment: "Consegui me livrar das dívidas 🥳🥳",
+  },
+  {
+    id: "5",
+    name: "Brunna Nunes",
+    photo: "woman_2",
+    comment:
+      "Posso ter uma vida tranquila agora e sem me preocupar com os boletos 😜",
+  },
+  {
+    id: "6",
+    name: "Andressa Fernandes Melo",
+    photo: "woman_1",
+    comment:
+      "Tinha muitos problemas com dívidas, mas agora elas não são mais um problema pra mim e posso dormir tranquila",
+  },
+  {
+    id: "7",
+    name: "Luiz Gustavo",
+    photo: "man_3",
+    comment:
+      "Finalmente um método que REALMENTE FUNCIONA, agora estou livre das dívidas 🚀",
+  },
+  {
+    id: "8",
+    name: "Nessa Mendes",
+    photo: "woman_4",
+    comment: "Agora não preciso mais me preocupar com os boletos",
+  },
+  {
+    id: "9",
+    name: "Enzo Miguel",
+    photo: "man_5",
+    comment:
+      "Estava prestes a perder tudo, mas hoje agradeço muito todos os dias por ter encontrado esse método 🙏🏼",
+  },
+];
+
+const insertCommentsOnScreen = () => {
+  commentsSection.innerHTML = comments
+    .map(
+      (comment) =>
+        `<div class="main__comments--section__profile">
+    <div class="main__comments--section__profile__user--data">
+      <figure class="main__comments--section__profile__user--data__figure">
+        <img
+          class="main__comments--section__profile__user--data__figure__photo"
+          src="./images/${comment.photo}.png"
+        />
+      </figure>
+      <p class="main__comments--section__profile__user--data__name">
+        ${comment.name}
+      </p>
+    </div>
+    <p class="main__comments--section__profile__user--data__comment">
+      ${comment.comment}
+    </p>
+  </div>`
+    )
+    .join("");
 };
 
 function mostrar() {
@@ -44,4 +123,4 @@ function insertDateInHtml() {
 }
 
 insertDateInHtml();
-playVideoHtml();
+insertCommentsOnScreen();
