@@ -5,35 +5,35 @@ const commentsSection = document.querySelector(".main__comments--section");
 const comments = [
   {
     id: "1",
-    name: "Mario Henrique dos Santos",
-    photo: "man_1",
+    name: "Edileusa Silva",
+    photo: "woman_7",
     comment:
       "Sensacional, finalmente pude me livrar das dívidas e construir um patrimônio que me deixa seguro. 🤩",
   },
   {
     id: "2",
-    name: "Lucas Fernandes",
-    photo: "man_2",
+    name: "Elizabete Bete",
+    photo: "woman_2",
     comment:
       "Nunca tinha conseguido me livrar das dívidas e quase perdi minha esposa por isso, mais agora finalmente consegui sair do aperto e agradeço muito por isso",
   },
   {
     id: "3",
-    name: "Marta Silva",
-    photo: "woman_3",
+    name: "Marta Gomes",
+    photo: "woman_9",
     comment:
       "Depois de anos no aperto e recebendo cobranças todos os dias, finalmente me livrei das dívidas e agora posso dizer q tenho uma vida confortável e sem preocupação",
   },
   {
     id: "4",
-    name: "Marcus Vinícius",
-    photo: "man_4",
+    name: "Cleide dos Santos",
+    photo: "woman_4",
     comment: "Consegui me livrar das dívidas 🥳🥳",
   },
   {
     id: "5",
     name: "Brunna Nunes",
-    photo: "woman_2",
+    photo: "woman_3",
     comment:
       "Posso ter uma vida tranquila agora e sem me preocupar com os boletos 😜",
   },
@@ -46,21 +46,21 @@ const comments = [
   },
   {
     id: "7",
-    name: "Luiz Gustavo",
-    photo: "man_3",
+    name: "Luíza Melo",
+    photo: "woman_6",
     comment:
       "Finalmente um método que REALMENTE FUNCIONA, agora estou livre das dívidas 🚀",
   },
   {
     id: "8",
     name: "Nessa Mendes",
-    photo: "woman_4",
+    photo: "woman_5",
     comment: "Agora não preciso mais me preocupar com os boletos",
   },
   {
     id: "9",
-    name: "Enzo Miguel",
-    photo: "man_5",
+    name: "Valentina Santos",
+    photo: "woman_8",
     comment:
       "Estava prestes a perder tudo, mas hoje agradeço muito todos os dias por ter encontrado esse método 🙏🏼",
   },
