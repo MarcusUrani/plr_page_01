@@ -5,34 +5,35 @@ const commentsSection = document.querySelector(".main__comments--section");
 const comments = [
   {
     id: "1",
-    name: "Edileusa Silva",
+    name: "Edileusa Couto",
     photo: "woman_7",
     comment:
-      "Sensacional, finalmente pude me livrar das dívidas e construir um patrimônio que me deixa seguro. 🤩",
+      "Estava em crise com meu marido, ele estava frio, diferente e brigávamos todos os dias, até que, há uns meses atrás, ele me disse que queria o divórcio. Foi então que conheci esse método e desde então nosso relacionamento é outro, finalmente nós conseguimos ter conversas sem brigar, somos um casal feliz e nem parece que passamos por aquele momento tão conturbado, é como se estivéssemos vivendo o início do relacionamento novamente. Eu nem tenho palavras pra agradecer, simplesmente mudou totalmente minha visão e salvou nosso casamento. 😍🌹",
   },
   {
     id: "2",
-    name: "Elizabete Bete",
+    name: "Marta Gomes",
     photo: "woman_2",
     comment:
-      "Nunca tinha conseguido me livrar das dívidas e quase perdi minha esposa por isso, mais agora finalmente consegui sair do aperto e agradeço muito por isso",
+      "Salvou meu casamento e agora estamos felizes como nunca, nosso relacionamento mudou da água pro vinho 🥰💞",
   },
   {
     id: "3",
-    name: "Marta Gomes",
+    name: "Letícia Silva",
     photo: "woman_9",
     comment:
-      "Depois de anos no aperto e recebendo cobranças todos os dias, finalmente me livrei das dívidas e agora posso dizer q tenho uma vida confortável e sem preocupação",
+      "Depois de muito desgaste, brigas constantes e várias ameaças de divórcio, conheci o método e nosso relacionamento foi transformado.",
   },
   {
     id: "4",
-    name: "Cleide dos Santos",
+    name: "Nina Costa",
     photo: "woman_4",
-    comment: "Consegui me livrar das dívidas 🥳🥳",
+    comment:
+      "Consegui impedir o divórcio e salvar meu casamento, agora nosso relacionamento está nas nuvens, é como se todo dia fosse o primeiro dia de relacionamento, tudo é lindo, maravilhoso e estamos muito felizes. 👩‍❤️‍👨",
   },
   {
     id: "5",
-    name: "Brunna Nunes",
+    name: "Fabianna Leme",
     photo: "woman_3",
     comment:
       "Posso ter uma vida tranquila agora e sem me preocupar com os boletos 😜",
@@ -46,7 +47,7 @@ const comments = [
   },
   {
     id: "7",
-    name: "Luíza Melo",
+    name: "Mary Santos",
     photo: "woman_6",
     comment:
       "Finalmente um método que REALMENTE FUNCIONA, agora estou livre das dívidas 🚀",
@@ -59,7 +60,7 @@ const comments = [
   },
   {
     id: "9",
-    name: "Valentina Santos",
+    name: "Valentina Macedo",
     photo: "woman_8",
     comment:
       "Estava prestes a perder tudo, mas hoje agradeço muito todos os dias por ter encontrado esse método 🙏🏼",
