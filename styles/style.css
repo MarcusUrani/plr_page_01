@@ -15,6 +15,11 @@ html {
   background-repeat: no-repeat;
 }
 
+::selection {
+  color: var(--text-color);
+  background-color: var(--darker-main);
+}
+
 body,
 h1,
 h2,
@@ -41,7 +46,7 @@ img,
 figure,
 figcaption {
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sora", sans-serif;
   margin: 0;
   padding: 0;
 }

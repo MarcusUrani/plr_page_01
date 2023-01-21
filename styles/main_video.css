@@ -7,13 +7,12 @@
 
 .main__video--container__video {
   align-items: center;
-  border-radius: 1rem;
   display: flex;
   font-size: 2rem;
-  height: 315px;
+  height: 385px;
   justify-content: center;
   text-align: center;
-  width: 560px;
+  width: 685px;
 }
 
 @media (max-width: 768px) {
