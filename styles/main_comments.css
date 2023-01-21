@@ -1,20 +1,21 @@
 .main__comments--section {
   align-items: flex-start;
+  background-color: var(--others-background);
   display: flex;
   flex-direction: column;
   gap: 2rem;
   justify-content: center;
-  margin: 5rem auto;
-  width: 80%;
+  margin: 5rem 0 0 0;
+  padding: 5rem 10rem;
+  width: 100%;
 }
 
 .main__comments--section__profile {
   align-items: flex-start;
-  background-color: var(--darker-main);
-  border-radius: 0.5rem;
+  border-bottom: 1px solid var(--benefits-background);
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 1rem 0;
   width: 100%;
 }
 
@@ -26,7 +27,7 @@
 }
 
 .main__comments--section__profile__user--data__name {
-  color: var(--alt-text-color);
+  color: var(--commentary-name);
   font-weight: 500;
 }
 
@@ -36,16 +37,12 @@
 }
 
 .main__comments--section__profile__user--data__comment {
-  color: var(--text-color);
+  color: var(--secondary-color);
   font-weight: 500;
   margin-left: 4.5rem;
 }
 
 @media (max-width: 768px) {
-  .main__comments--section {
-    width: 95%;
-  }
-
   .main__comments--section__profile__user--data {
     gap: 0;
   }

@@ -1,6 +1,6 @@
 .main {
-  margin: 1rem auto;
-  width: 80%;
+  margin: 1rem 0;
+  width: 100%;
 }
 
 .main__header--container__title {
@@ -16,7 +16,6 @@
 
 @media (max-width: 768px) {
   .main {
-    margin: 1.5rem;
-    width: 90%;
+    margin: 1.5rem 0;
   }
 }

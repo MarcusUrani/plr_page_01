@@ -6,6 +6,8 @@
   --alt-text-color: #fce6ec;
   --secondary-color: #000000;
   --darker-main: #b60635;
+  --benefits-background: #f184a1;
+  --others-background: #f7b5c6;
 }
 
 ::selection {
