@@ -39,7 +39,9 @@ address,
 video,
 img,
 figure,
-figcaption {
+figcaption,
+ul,
+li {
   box-sizing: border-box;
   font-family: "Sora", sans-serif;
   margin: 0;
