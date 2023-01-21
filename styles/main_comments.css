@@ -57,11 +57,11 @@
   }
 
   .main__comments--section__profile__user--data__name {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
 
   .main__comments--section__profile__user--data__comment {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-left: 4rem;
   }
 
