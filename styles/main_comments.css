@@ -43,6 +43,10 @@
 }
 
 @media (max-width: 768px) {
+  .main__comments--section {
+    padding: 3rem;
+  }
+
   .main__comments--section__profile__user--data {
     gap: 0;
   }
@@ -58,5 +62,11 @@
 
   .main__comments--section__profile__user--data__figure__photo {
     width: 75%;
+  }
+}
+
+@media (max-width: 425px) {
+  .main__comments--section {
+    padding: 2rem;
   }
 }
