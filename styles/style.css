@@ -8,13 +8,6 @@
   --darker-main: #b60635;
 }
 
-html {
-  background: url(../backgrounds/background_01.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 ::selection {
   color: var(--text-color);
   background-color: var(--darker-main);
