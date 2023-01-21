@@ -19,6 +19,10 @@
   width: 100%;
 }
 
+.main__comments--section__profile:last-child {
+  border-bottom: none;
+}
+
 .main__comments--section__profile__user--data {
   align-items: center;
   display: flex;
