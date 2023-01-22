@@ -1,3 +1,5 @@
+import $ from "jquery";
+
 const dateHtml = document.querySelector(".attention");
 const videoHtml = document.querySelector("#my-video");
 const commentsSection = document.querySelector(".main__comments--section");
@@ -92,7 +94,7 @@ function insertDateInHtml() {
 insertDateInHtml();
 insertCommentsOnScreen();
 
-function URLToArray(url) {
+/*function URLToArray(url) {
   var request = {};
 
   if (url.indexOf("?") !== -1) {
@@ -211,4 +213,4 @@ $("body").on("click", ".link_popup", function () {
   setTimeout(() => {
     CamposUTM(true);
   }, 200);
-});
+}); */
