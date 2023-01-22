@@ -1,5 +1,3 @@
-import $ from "jquery";
-
 const dateHtml = document.querySelector(".attention");
 const videoHtml = document.querySelector("#my-video");
 const commentsSection = document.querySelector(".main__comments--section");
