@@ -1,0 +1,22 @@
+.footer {
+  background-color: var(--main-color);
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footer__copyright {
+  color: rgba(63, 63, 63, 0.8);
+  font-size: 0.8rem;
+  margin: 0 auto;
+  width: 50%;
+}
+
+@media (max-width: 425px) {
+  .footer {
+    padding: 1.5rem 0;
+  }
+
+  .footer__copyright {
+    width: 70%;
+  }
+}
