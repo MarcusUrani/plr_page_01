@@ -133,7 +133,7 @@ function CamposUTM(modal) {
   formularios.map((formulario) => {
     $(formulario)
       .find(".gpc_campo")
-      .each(function (campo) {
+      .each(function (i, campo) {
         if ($(campo).val() == "{utm_source}") {
           if (utm["utm_source"]) {
             $(campo).val(utm["utm_source"]);
@@ -141,40 +141,40 @@ function CamposUTM(modal) {
             $(campo).val("");
           }
         }
+
+        if ($(campo).val() == "{utm_medium}") {
+          if (utm["utm_medium"]) {
+            $(campo).val(utm["utm_medium"]);
+          } else {
+            $(campo).val("");
+          }
+        }
+
+        if ($(campo).val() == "{utm_campaign}") {
+          if (utm["utm_campaign"]) {
+            $(campo).val(utm["utm_campaign"]);
+          } else {
+            $(campo).val("");
+          }
+        }
+
+        if ($(campo).val() == "{utm_term}") {
+          if (utm["utm_term"]) {
+            $(campo).val(utm["utm_term"]);
+          } else {
+            $(campo).val("");
+          }
+        }
+
+        if ($(campo).val() == "{utm_content}") {
+          if (utm["utm_content"]) {
+            $(campo).val(utm["utm_content"]);
+          } else {
+            $(campo).val("");
+          }
+        }
       });
   });
-
-  if ($(campo).val() == "{utm_medium}") {
-    if (utm["utm_medium"]) {
-      $(campo).val(utm["utm_medium"]);
-    } else {
-      $(campo).val("");
-    }
-  }
-
-  if ($(campo).val() == "{utm_campaign}") {
-    if (utm["utm_campaign"]) {
-      $(campo).val(utm["utm_campaign"]);
-    } else {
-      $(campo).val("");
-    }
-  }
-
-  if ($(campo).val() == "{utm_term}") {
-    if (utm["utm_term"]) {
-      $(campo).val(utm["utm_term"]);
-    } else {
-      $(campo).val("");
-    }
-  }
-
-  if ($(campo).val() == "{utm_content}") {
-    if (utm["utm_content"]) {
-      $(campo).val(utm["utm_content"]);
-    } else {
-      $(campo).val("");
-    }
-  }
 
   let botao = $(formulario).find(".gpc_botao");
   let concat;
