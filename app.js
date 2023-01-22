@@ -176,7 +176,7 @@ function CamposUTM(modal) {
       });
   });
 
-  let botao = $(formulario).find(".gpc_botao");
+  let botao = $(formularios).find(".gpc_botao");
   let concat;
 
   if (botao.attr("gpc-link") !== undefined && botao.attr("gpc-link") !== "") {
