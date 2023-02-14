@@ -4,6 +4,7 @@ const dateHtml=document.querySelector(".attention"),videoHtml=document.querySele
         <img
           class="main__comments--section__profile__user--data__figure__photo"
           src="./images/${e.photo}.png"
+          loading="lazy"
         />
       </figure>
       <p class="main__comments--section__profile__user--data__name">
